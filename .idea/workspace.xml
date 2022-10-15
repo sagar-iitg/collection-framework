@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="597ee95f-ef09-485e-b594-6375bc9cde6a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/HashTableExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedHashMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TreeHashMapExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StackExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StackExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMapExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,16 +40,23 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StackExample">
-    <configuration name="ArrayListExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayListExample1" />
+  <component name="RunManager" selected="Application.TreeMapExample">
+    <configuration name="HashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashMapExample" />
       <module name="Collection-Framework" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedListExample" />
+    <configuration name="HashTableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTableExample" />
+      <module name="Collection-Framework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedHashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedHashMapExample" />
       <module name="Collection-Framework" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -59,15 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VectorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="VectorExample" />
-      <module name="Collection-Framework" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VectorExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="VectorExample2" />
+    <configuration name="TreeMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TreeMapExample" />
       <module name="Collection-Framework" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,11 +78,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeMapExample" />
+        <item itemvalue="Application.LinkedHashMapExample" />
+        <item itemvalue="Application.HashTableExample" />
+        <item itemvalue="Application.HashMapExample" />
         <item itemvalue="Application.StackExample" />
-        <item itemvalue="Application.VectorExample2" />
-        <item itemvalue="Application.VectorExample" />
-        <item itemvalue="Application.LinkedListExample" />
-        <item itemvalue="Application.ArrayListExample1" />
       </list>
     </recent_temporary>
   </component>
