@@ -1,5 +1,7 @@
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class ArrayListExample1 {
 
@@ -8,20 +10,30 @@ public class ArrayListExample1 {
 
 
         ArrayList<Integer> arr=new ArrayList<>();
-        arr.add(10);
-        arr.add(20);
-        arr.add(30);
+        arr.add(3);
+        arr.add(2);
+        arr.add(-5);
+        arr.add(56);
+        arr.add(0,1);
 
-        ArrayList<Integer> arr1=new ArrayList<>();
-        arr1.add(10);
-        arr1.add(20);
-        arr1.add(30);
+        System.out.println(arr);
+//        arr.sort(new Comparator<Integer>() {
+//            @Override
+//            public int compare(Integer o1, Integer o2) {
+//                return o2-o1;
+//            }
+//        });
+//
+//        System.out.println("Decreasing Order");
+//        System.out.println(arr);
+        Collections.sort(arr,Collections.reverseOrder());
+       // System.out.println("Increasing Order");
+        System.out.println(arr);
 
+        arr.add(90);
+        int sz=arr.size();
+        System.out.println(sz);
 
-        Boolean b=arr.equals(arr1);
-        System.out.println(b);
-        System.out.println(arr.hashCode());
-        System.out.println(arr1.hashCode());
 
 
 

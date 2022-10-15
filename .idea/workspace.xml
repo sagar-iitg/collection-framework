@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="597ee95f-ef09-485e-b594-6375bc9cde6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collection-Framework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayListExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VectorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VectorExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayListExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayListExample1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,14 +41,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="ArrayListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayListExample" />
-      <module name="Collection-Framework" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.VectorExample2">
     <configuration name="ArrayListExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayListExample1" />
       <module name="Collection-Framework" />
@@ -61,8 +49,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="LinkedListExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedListExample" />
+      <module name="Collection-Framework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedListExample" />
+      <module name="Collection-Framework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VectorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VectorExample" />
+      <module name="Collection-Framework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VectorExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VectorExample2" />
       <module name="Collection-Framework" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,9 +79,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.VectorExample2" />
+        <item itemvalue="Application.VectorExample" />
+        <item itemvalue="Application.LinkedListExample" />
         <item itemvalue="Application.ArrayListExample1" />
-        <item itemvalue="Application.ArrayListExample" />
+        <item itemvalue="Application.LinkedListExample (1)" />
       </list>
     </recent_temporary>
   </component>

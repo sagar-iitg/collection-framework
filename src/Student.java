@@ -12,5 +12,9 @@ public class Student {
         this.name = name;
     }
 
-
+    @Override
+    public String toString() {
+        return "(" +rollNo +
+                "," + name+ ")";
+    }
 }
