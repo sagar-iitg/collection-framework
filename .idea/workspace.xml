@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="597ee95f-ef09-485e-b594-6375bc9cde6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LinkedListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VectorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VectorExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StackExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayListExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayListExample1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMapExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
