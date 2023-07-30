@@ -20,6 +20,9 @@ public class TreeMapExample {
         map.put(4,"four");
 
         map.forEach((key,values)-> System.out.println(key+" "+values));
+        System.out.println(map.values());
+        System.out.println(map.keySet());
+        System.out.println(map.entrySet());
 
 
 

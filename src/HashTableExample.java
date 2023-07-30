@@ -33,6 +33,9 @@ public class HashTableExample {
 
         }
 
+        System.out.println(map.values());
+        System.out.println(map.keySet());
+        System.out.println(map.entrySet());
 
        // map.forEach((x,y)-> System.out.println(x+" "+y));
 
