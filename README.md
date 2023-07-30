@@ -1,15 +1,15 @@
-# Collection-Framework
+## Collection-Framework
 
-List- Interface
+_**List- Interface**_
 
 ArrayList- Class\
 LinkedList- Class\
 Vector- Class\
 Stack- Class
 
-Map-Interface
+**_Map-Interface_**
 
-HashMap\
+**_HashMap_**\
 
 A HashMap contains values based on the key.\
 It contains only unique elements.\
@@ -29,13 +29,27 @@ A TreeMap contains values based on the key. It implements the NavigableMap inter
 It is same as HashMap instead maintains ascending order(Sorted using the natural order of its key).\
 It contains only unique elements\
 
-LinkedHashMap\
+**LinkedHashMap**\
 It is same as HashMap instead maintains insertion order.\
 It may have one null key and multiple null values\
 It contains only unique elements.\
 A LinkedHashMap contains values based on the key.
 
-Set-Interface
+_**Set-Interface**_
+
+
+_**StringBuffer**_\
+It is Mutable Sequence of Characters\
+Efficient\
+ThreadSade\
+makes it little slower\
+
+StringBuilder and StringBuffer -
+
+
+
+
+
 
 
 
