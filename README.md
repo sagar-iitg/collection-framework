@@ -1,4 +1,29 @@
-## Collection-Framework
+##  Java Collection-Framework
+
+
+_**General Intro**_
+
+Added in Java version 1.2\
+Collection is nothing but a group of Objects\
+Present in java.util package\
+Framework provides us the architecture to manage these "group of objects" i.e
+add,update,delete,search etc\
+Iterable Interface is added in java 1.5
+
+
+_** Why we need Java Collections Framework **_
+
+Prior to JCF, we have array, vector, hash tables\
+But problem with that is,there is no common interface, so its difficult to remember
+the methods for each\
+
+
+
+
+
+
+
+
 
 _**List- Interface**_
 
@@ -9,12 +34,12 @@ Stack- Class
 
 **_Map-Interface_**
 
-**_HashMap_**\
+**_HashMap_**
 
 A HashMap contains values based on the key.\
 It contains only unique elements.\
 It may have one null key and multiple null values.\
-It maintains no order.\
+It maintains no order.
 
 
 Hashtable\
