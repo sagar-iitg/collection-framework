@@ -20,6 +20,7 @@ the methods for each\
 
 
 _**Comparator vs Comparable**_
+Comparator and comparable both provides a way to sort the collection of objects
 
 
 
