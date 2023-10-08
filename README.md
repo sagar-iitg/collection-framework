@@ -1,6 +1,7 @@
 ##  Java Collection-Framework
 
 
+
 _**General Intro**_
 
 Added in Java version 1.2\
@@ -17,6 +18,16 @@ Prior to JCF, we have array, vector, hash tables\
 But problem with that is,there is no common interface, so its difficult to remember
 the methods for each\
 
+
+_**Comparator vs Comparable**_
+
+
+
+_**Comparator**
+
+Comparator is a member of the Java Collections Framework.\
+This is a functional interface and can therefore be used as the assignment target for a lambda expression or method reference\
+Comparators can be passed to a sort method (such as Collections.sort or Arrays.sort)\
 
 
 
@@ -61,6 +72,17 @@ It contains only unique elements.\
 A LinkedHashMap contains values based on the key.
 
 _**Set-Interface**_
+
+
+_**Queue Interface**_
+
+Queue is an Interface,child of collection interface\
+generally queue follows FIFO approach, but there are exceptions like PriorityQueue\
+Supports all methods available in collection + some other methods mentioned below\
+
+
+
+
 
 
 _**StringBuffer**_\
