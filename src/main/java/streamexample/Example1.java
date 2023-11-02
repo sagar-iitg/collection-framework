@@ -15,11 +15,16 @@ public class Example1 {
          Arrays.stream(str)
                 .filter(s -> s.length() == 3).forEach(System.out::println);
 
-        StringBuilder collect = stringList.stream().filter(s -> s.length() == 3).
-                collect(() -> new StringBuilder(), (sb, s) -> sb.append(s),
-                        (sb1, sb2) -> sb1.append(sb2));
+        StringBuilder collect = stringList.stream().
+                                            filter(s -> s.length() == 3).
+                                            collect(() -> new StringBuilder(), (sb, s) -> sb.append(s),
+                         (sb1, sb2) -> sb1.append(sb2));
+
+        StringBuilder collect1 = stringList.stream().filter(s -> s.length() == 3).
+                collect(StringBuilder::new, StringBuilder::append, StringBuilder::append);
 
         System.out.println(collect);
+        System.out.println(collect1);
 
 
     }
