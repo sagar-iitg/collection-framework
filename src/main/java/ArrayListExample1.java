@@ -26,7 +26,7 @@ public class ArrayListExample1 {
 //
 //        System.out.println("Decreasing Order");
 //        System.out.println(arr);
-        Collections.sort(arr,Collections.reverseOrder());
+        arr.sort(Collections.reverseOrder());
        // System.out.println("Increasing Order");
         System.out.println(arr);
 
