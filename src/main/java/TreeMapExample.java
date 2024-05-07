@@ -14,8 +14,8 @@ public class TreeMapExample {
         map.put(7,"eight");
         map.put(1,"one");
 
-       // map.put(null,"null");
-       // map.put(new Integer(55),"nullling");
+        // map.put(null,"null");   In TreeMap, inserting a null key is not allowed
+        map.put(new Integer(55),"nullling");
         map.put(3,"three");
         map.put(4,"four");
 
