@@ -53,6 +53,8 @@ public class LinkedListExample {
                 return o2-o1;
             }
         });
+       // Collections.sort(arr);
+
        System.out.println("Decreasing Order");
        System.out.println(arr);
        Collections.sort(arr);
