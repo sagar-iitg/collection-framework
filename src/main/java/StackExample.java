@@ -28,6 +28,9 @@ public class StackExample {
 
         System.out.println(st.size());
         System.out.println(st.search("Mohit"));
+        System.out.println(st.search("Sagar"));
+        System.out.println(st.search("Arpit"));
+        System.out.println(st.search("Aman"));
 
 
     }
