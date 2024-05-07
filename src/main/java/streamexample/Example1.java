@@ -9,11 +9,13 @@ public class Example1 {
 
     public static void main(String[] args) {
         String[] str={"abc","abcd","sagar","hello","sky"};
-        List<String > stringList=new ArrayList<>(List.of("abc","abcd","sagar","hello","sky"));
 
 
          Arrays.stream(str)
                 .filter(s -> s.length() == 3).forEach(System.out::println);
+
+        List<String > stringList=new ArrayList<>(List.of("abc","abcd","sagar","hello","sky"));
+
 
         StringBuilder collect = stringList.stream().
                                             filter(s -> s.length() == 3).
