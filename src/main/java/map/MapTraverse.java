@@ -13,5 +13,8 @@ public class MapTraverse {
         map.forEach((key,value)->System.out.println(key+" "+value));
         System.out.println("---------");
         map.entrySet().forEach(entry->System.out.println(entry.getKey()+" "+entry.getValue()));
+        for(Map.Entry<String ,Integer> entry:map.entrySet()){
+            System.out.println(entry.getKey()+" "+entry.getValue());
+        }
     }
 }
