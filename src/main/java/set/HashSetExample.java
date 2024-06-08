@@ -15,7 +15,5 @@ public class HashSetExample {
         h.add(list);
         h.add(list1);
         System.out.println(h);
-
-
     }
 }
