@@ -10,7 +10,7 @@ public class Example1 {
 
         int sum = Arrays.stream(arr).sum();
         System.out.println(sum);
-        
+
         OptionalDouble average = Arrays.stream(arr).average();
         System.out.println(average);
 
