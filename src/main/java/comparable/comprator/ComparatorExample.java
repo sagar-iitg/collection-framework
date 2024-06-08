@@ -52,8 +52,9 @@ class ComparatorExample {
 
         // Sort the list using a lambda expression
         //Collections.sort(people, Comparator.comparingInt(Human::getAge));
+        Collections.sort(people, Comparator.comparing(Human::getAge));
        // Collections.sort(people, Comparator.comparing(Human::getName));
-        Collections.sort(people, Comparator.comparing(h->h.getName()));
+        //Collections.sort(people, Comparator.comparing(h->h.getName()));
 
         // Print the list after sorting
         System.out.println("\nAfter sorting by age:");
