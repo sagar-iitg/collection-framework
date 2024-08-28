@@ -1,7 +1,7 @@
-import java.lang.reflect.Array;
+package list;
+
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 
 public class ArrayListExample1 {
 

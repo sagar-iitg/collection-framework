@@ -1,6 +1,6 @@
-import java.lang.reflect.Array;
+package list;
+
 import java.util.ArrayList;
-import java.util.List;
 
 public class ArrayListExample {
 
