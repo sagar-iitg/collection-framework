@@ -1,4 +1,4 @@
-package conversion;
+package conversion.collection;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -17,5 +17,6 @@ public class Example5 {
 
         System.out.println(new ArrayList<>(map.keySet()));
         System.out.println(new ArrayList<>(map.values()));
+        System.out.println(new ArrayList<>(map.entrySet()));
     }
 }
