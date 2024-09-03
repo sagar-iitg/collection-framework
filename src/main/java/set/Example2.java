@@ -64,7 +64,7 @@ public class Example2 {
 
         System.out.println(studentList.size());
 
-        st1.id = 3;
+        st1.id = 2;
 
         System.out.println(studentList.size());
     }

@@ -10,6 +10,7 @@ public class Example {
         System.out.println(map);
         map.put(1,3);
         System.out.println(map.remove(1));
+        System.out.println(map.remove(10));
 
     }
 

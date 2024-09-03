@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+
  class Human {
     private String name;
     private int age;
@@ -52,7 +53,7 @@ class ComparatorExample {
 
         // Sort the list using a lambda expression
         //Collections.sort(people, Comparator.comparingInt(Human::getAge));
-        Collections.sort(people, Comparator.comparing(Human::getAge));
+        Collections.sort( people, Comparator.comparing(Human::getAge).reversed()  );
        // Collections.sort(people, Comparator.comparing(Human::getName));
         //Collections.sort(people, Comparator.comparing(h->h.getName()));
 
