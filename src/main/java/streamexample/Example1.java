@@ -13,7 +13,7 @@ public class Example1 {
 
          Arrays.stream(str)
                 .filter(s -> s.length() == 3).forEach(System.out::println);
-
+        System.out.println("----");
         List<String > stringList=new ArrayList<>(List.of("abc","abcd","sagar","hello","sky"));
 
 
