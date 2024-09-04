@@ -34,8 +34,8 @@ public class Main {
 
         // Group The Student By Department Names
 
-        Map<Integer, List<Student>> collect = list.stream().
-                collect(Collectors.groupingBy(Student::getRank));
+        Map<String, List<Student>> collect = list.stream().
+                collect(Collectors.groupingBy(Student::getDepartmentName));
         System.out.println(collect);
 
     }
