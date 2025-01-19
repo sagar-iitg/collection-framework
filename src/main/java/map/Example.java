@@ -11,6 +11,7 @@ public class Example {
         map.put(1,3);
         System.out.println(map.remove(1));
         System.out.println(map.remove(10));
+        System.out.println(map.get(25));
 
     }
 
