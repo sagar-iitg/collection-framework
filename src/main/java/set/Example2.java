@@ -5,7 +5,7 @@ import java.util.HashSet;
 
 class Student {
 
-    public int id;
+    public  int id;
 
     public String name;
 
